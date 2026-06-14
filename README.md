@@ -128,6 +128,18 @@ AdamW
 - The dataset itself is not included in this repository.
 - The checkpoint contains the model state, optimizer state, validation loss, and epoch.
 
+## Relation to EchoLens Ratings
+
+This project represents one of the early pretraining pipelines used during the development of the AI models behind EchoLens Ratings.
+
+The production platform has since evolved significantly, incorporating larger datasets, more advanced architectures, and additional training and calibration stages. However, the fundamental approach remains the same: leveraging large-scale aesthetic datasets to train computer vision models capable of predicting human aesthetic preferences.
+
+The code in this repository is a simplified research implementation released to illustrate the general methodology that contributed to the development of the EchoLens Ratings platform.
+
+Learn more about the production platform at:
+
+[EchoLens Ratings](https://echolensratings.com)
+
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
